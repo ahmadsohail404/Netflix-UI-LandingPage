@@ -29,6 +29,8 @@ So, here you go! Star this Repo and fork it to start contributing for Hacktober 
 
 # Contribution is fun! 🧡
 - Create issues and start
+- Add features
+- Enhance the UX
 
 ## 📌 Tech Stack
 
