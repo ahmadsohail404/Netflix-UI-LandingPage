@@ -1,7 +1,7 @@
 const question = document.querySelectorAll(".question");
 question.forEach((ques) => {
   ques.addEventListener("click", (e) => {
-    /* closes previously opened FAQ */
+    /* closes previously opened question */
     question.forEach((opened_ques) => {
       const opened_ans = opened_ques.nextElementSibling;
       opened_ans.classList.remove("show");
