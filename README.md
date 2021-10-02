@@ -27,19 +27,7 @@ This is a Netflix UI Clone build on Html, Css, JavaScript.
 
 So, here you go! Star this Repo and fork it to start contributing for Hacktober Fest. 🤩 Excited?
 
-<div align="left">
-<a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage"><img src="https://sloc.xyz/github.com/ahmadsohail404/Netflix-UI-LandingPage" alt="LOC"/></a>
-<a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage"><img src="https://img.shields.io/github.com/ahmadsohail404/Netflix-UI-LandingPage" alt="Stars Badge"/></a>
-<a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage/network/members"><img src="https://img.shields.io/github/forks/ahmadsohail404/Netflix-UI-LandingPage" alt="Forks Badge"/></a>
-<a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github.com/ahmadsohail404/Netflix-UI-LandingPage"></a>
-<a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage"><img src="https://badges.frapsoft.com/os/v2/open-source.svg" alt="Open Source"/></a>
-</div>
-<a href="https://open.vscode.dev/organization/repository"><img src="https://open.vscode.dev/badges/open-in-vscode.svg" alt="Open in Visual Studio Code"/></a>
-</div>
-
 # Contribution is fun! 🧡
-
-![image](https://github.com/ahmadsohail404/Netflix-UI-LandingPage/blob/35d1c25fa8a5e856c0b03e79ac243d6c559d0710/images/Hacktoberfest%20-%20Accepted.png)
 
 ## 📌 Tech Stack
 
@@ -154,7 +142,7 @@ If you want to contact me, you can reach me through below handles.
 
 <div align="center">
 
-<a  href="https://www.youtube.com/channel/UCYGVtIgQIAChKBWBmChxzJw" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
+<a  href="https://www.youtube.com/channel/UCybCL66HUQDcbF-2duwCIFQ" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
 <a  href="https://www.linkedin.com/in/ahmadsohail404/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://twitter.com/ahmadsohail_twt" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
 <a href="mailto:sohailss2412@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
