@@ -84,7 +84,7 @@ margin-top: 1.4rem;
 }
 .email-input input{
     width: 60%;
-    padding: 1.3rem 0.5rem;
+    padding: 1.3rem 0;
 }
 .email-input input::placeholder{
     padding-left: 20px;
@@ -97,7 +97,7 @@ margin-top: 1.4rem;
     padding: 1rem 0;
     padding-bottom: 1.2rem;
     font-size: 1.4rem;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     font-weight: 300;
     text-align: center;
 }
