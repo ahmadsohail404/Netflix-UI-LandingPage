@@ -28,6 +28,7 @@ This is a Netflix UI Clone build on Html, Css, JavaScript.
 So, here you go! Star this Repo and fork it to start contributing for Hacktober Fest. 🤩 Excited?
 
 # Contribution is fun! 🧡
+- Create issues and start
 
 ## 📌 Tech Stack
 
