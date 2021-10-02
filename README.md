@@ -47,14 +47,6 @@ So, here you go! Star this Repo and fork it to start contributing for Hacktober 
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
 
-## 📌 Sneak Peek of Main Page
-
-![image](https://github.com/ahmadsohail404/Netflix-UI-LandingPage/blob/7cf3bafebd9e1a6d6fa95f40822cbcdd28a4005b/assets/images/aec.PNG)
-
-In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the instructions mentioned below!
-
-Happy Submissions :slightly_smiling_face:
-
 <h1> Contributing Guidelines </h1>
 
 ## Basics of Git and GitHub
