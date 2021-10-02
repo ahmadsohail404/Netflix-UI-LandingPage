@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background:rgb(39, 39, 39);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.container{
+    background:rgba(0, 0, 0, 0.637) url(netflex-bg.jpg);
+    height: 700px;
+    width: 100%;
+    background-blend-mode: screen;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar{
+    display: flex;
+    padding: 1rem 0;
+    height: 100px;
+    
+}
+.signup{
+    justify-content:flex-end;
+    margin-right: 55px;
+    width: 50%;
+}
+.logo{
+    width: 50%;
+    justify-content:flex-start;
+    padding: 0 3rem;
+}
+
+.btn{
+    background: #e50914;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    justify-self: flex-end;
+    text-align: center;
+    border-radius: 4px;
+}
+.navbar img{
+    width: 150px;
+    height: 76%;
+}
+.main-text{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    padding: 1.8rem;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.sec-1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    line-height: 1.3;
+}
+.sec-1 h2{
+    font-size: 3rem;
+    line-height: 1.1;
+}
+.sec-1 h4{
+margin-top: 1.4rem;
+}
+.sec-1 h5{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+.email-input{
+    width: 100%;
+}
+.email-input input{
+    width: 60%;
+    padding: 1.3rem 0;
+}
+.email-input input::placeholder{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.email-input .btn{
+    width: 40% !important;
+    border-radius: 0;
+    display: inline-block;
+    padding: 1rem 0;
+    padding-bottom: 1.2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+.sec-2{
+    background: black;
+    margin-top: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.sec-2 .enjoy-text ,.sec-3 .download-text{
+  width: 50%;
+  color: #fff;
+  flex-direction: column;
+}
+.enjoy-text h1, .enjoy-text h4{
+    font-size: 3rem;
+    width: 80%;
+    
+}
+.download-text h1,.download-text h4{
+    font-size: 3rem;
+    width: 80%;   
+}
+.enjoy-text h4,.download-text h4{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-top: 25px;
+}
+.sec-2 .img , .sec-3 .img{
+    width: 50%;
+}
+.sec-2 .img img{
+    width: 100%;
+    height: 100%;
+}
+.sec-3 .img img{
+    width: 80%;
+    height: 80%;
+}
+.sec-3,.sec-4{
+    width: 100%;
+   margin-top: 10px;
+   background: black;
+   flex-direction: row-reverse;
+}
+.sec-4{
+    flex-direction: row;
+    color: #fff;
+
+}
+.sec-4 .img{
+    padding: 5% 0;
+}
+section{
+    padding: 1rem 0;
+}
+.sec-5{
+    width: 100%;
+    flex-direction: column;
+    background: black;
+    margin-top: 10px;
+    color: white;
+}
+.sec-5 h1{
+    padding-top: 5%;
+}
+.questions{
+    width: 70%;
+    margin: auto;
+}
+.question , .ans{
+    width: 100%;
+    height: 65px;
+    background: #303030;
+    margin-top: 20px;
+    justify-content: flex-start;
+    font-size: 1.4rem;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.question{
+    position: relative;
+}
+.question p{
+    width: 90%;
+}
+.question span{
+    width: 10%;
+}
+.sec-5{
+    width: 100%;
+    padding-bottom: 4rem;
+}
+.ans{
+    display: none;
+    transition: 0.3s ease;
+}
+
+.show{
+    display: block;
+    height: auto;
+    transition: 0.3s ease;
+    padding: 1.8rem;
+}
+.rotate{
+    transform: rotate(45deg);
+    
+    
+    
+}
+.text{
+    flex-direction: column;
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+}
+.text .email-input{
+    width: 70%;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 10px;
+    background: black;
+    padding: 7% 7%;
+    color: #757575; 
+    flex-direction:column ;
+
+    
+}
+footer .div{
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+.div p{
+    padding-left: 5%;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.all-items{
+    
+    align-items: flex-start !important;
+    
+}
+footer ul{
+    list-style: none;
+    margin: 0  2rem;
+}
+footer ul li{
+    padding: 7px;
+}
+footer a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 13px;
+}
+footer a:hover{
+    border-bottom: 1px solid #757575;
+}
+.india{
+    padding: 5%;
+    width: 90%;
+    align-items: flex-start !important;
+}
+.india p{
+    width: 100%;
+}
+
+/* login page */
+
+.from{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 3%;
+    padding-bottom: 10%;
+    
+}
+.from form{
+    width: 100%;
+    flex-direction: column;
+}
+.from input{
+    background:#333;
+    width: 90%;
+    padding: 1.2rem 0.6rem;
+    border-radius: 4px;
+    margin: 10px;
+    outline: none;
+    border: none;
+}
+.from input::placeholder{
+    font-size: 16px;
+    color: #8c8c8c;
+    padding-left: 15px;
+}
+.from h1{
+    padding: 20px 0;
+    align-self: flex-start;
+    padding-left: 40px;
+}
+.from .btn{
+ border: none;
+ width: 90%;
+ margin-top: 30px;
+ padding: 1rem 0;
+}
+.else{
+    width: 90%;
+    font-size: 14px;
+    color: rgb(167, 167, 167);
+}
+.else .in{
+ width: 50%;
+ text-align: start;
+}
+.in input{
+    background: #737373 !important;
+}
+.help{
+    width: 50%;
+    text-align: end;
+}
+
+@media(max-width:916px){
+    .container{
+        height: auto;
+    }
+    .main-text{
+        width: 70%;
+    }
+    .sec-2 , .sec-3{
+        flex-direction: column;
+    }
+    .sec-2 .enjoy-text , .sec-3 .download-text{
+        width: 100%;
+    }
+    .enjoy-text h1, .enjoy-text h4{
+        width: 90%;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .download-text h1, .download-text h4{
+        width: 90%;
+        text-align: center;
+        padding-top: 3rem;  
+    }
+    .enjoy-text h4 , .download-text h4{
+        padding-top:0 ;
+        margin-top: 15px;
+    }
+    .sec-2 .img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-2 .img img{
+        width: 70%;
+        height: 70%;
+    }
+    .sec-3 .img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:718px){
+    .from{
+        width: 100%;
+        background: black;
+        
+    }
+    .from input{
+        width: 95%;
+    }
+    .from .btn{
+        width: 95%;
+    }
+    .from h1{
+        padding-left: 20px;
+    }
+    .else{
+        width: 95%;
+    }
+}
+@media(max-width:525px){
+    .main-text{
+        width: 100%;
+    }
+    .email-input{
+        flex-direction: column;
+    }
+    .email-input input {
+      width: 90%;
+    }
+    .email-input .btn{
+        display: block;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    .questions{
+        width: 90%;
+    }
+    .ul-1,.ul-2{
+        flex-direction: column;
+    }
+    html{
+        font-size: 80.25%;
+    }
+    .all-items{
+        text-align: justify;
+    }
+    .ul-1,.ul-2{
+        align-items: flex-start !important;
+    }
+    .navbar img{
+        width: 100px;
+        height: 30px;
+    }
+    .logo{
+        padding: 0 1rem;
+    }
+    .signup{
+        margin-right: 22px;
+    }
+}
