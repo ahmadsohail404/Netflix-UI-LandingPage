@@ -5,16 +5,16 @@
 </div>
 <br>
 
-> NETFLIX LANDIG PAGE MADE USING HTML,CSS AND JAVASCRIPT
+> NETFLIX LANDIG PAGE MADE USING HTML,CSS,BOOTSTRAP AND JAVASCRIPT
 
 ## 🚀 Tech and Tools Used
 
-- HTML,CSS and javascript
-- VS code
+- HTML,CSS ,Bootstrap and Javascript
+- VSCode
 
 <h1 align="center"> Netflix UI Landing Page </h1>
 
-This is a Netflix UI Clone build on Html, Css, JavaScript.
+This is a Netflix UI Clone build on HTML, CSS, JavaScript.
 
 <h4>[ In development Phase ] 
 [ Hacktoberfest-Accepted ] </h4>
@@ -25,7 +25,7 @@ This is a Netflix UI Clone build on Html, Css, JavaScript.
 
 </h2>
 
-So, here you go! Star this Repo and fork it to start contributing for Hacktober Fest. 🤩 Excited?
+So, here you go! Star this Repo and fork it to start contributing for Hacktober Fest 2021. 🤩 Excited?
 
 # Contribution is fun! 🧡
 - Create issues and start
@@ -34,9 +34,10 @@ So, here you go! Star this Repo and fork it to start contributing for Hacktober 
 
 ## 📌 Tech Stack
 
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)]
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
 <h1> Contributing Guidelines </h1>
 
