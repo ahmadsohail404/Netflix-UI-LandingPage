@@ -28,6 +28,7 @@ This is a Netflix UI Clone build on HTML, CSS, and JavaScript.
 So, here you go! Star this Repo and fork it to start contributing for Hacktober Fest 2021. 🤩 Excited?
 
 # Contribution is fun! 🧡
+
 - Create issues and start
 - Add features
 - Enhance the UX
@@ -131,7 +132,6 @@ Good Luck for your journey
 <h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
 <p align="center">
   
-	
 <a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ahmadsohail404/Netflix-UI-LandingPage" />
 </a>
@@ -142,7 +142,7 @@ Good Luck for your journey
 
 <h2>📬 Contact Us</h2>
 
-If you want to contact me, you can reach  through below handles.
+If you want to contact me, you can reach through below handles.
 
 <div align="center">
 
