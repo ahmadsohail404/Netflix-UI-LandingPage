@@ -342,10 +342,18 @@ i{
 
 .social-1 .btn{
     padding-right:98px;
+    background: #de5246;
 }
+
+.social-2 .btn{
+    
+    background: #3B5998;
+}
+
 
 .social-3 .btn{
     padding-right:100px;
+    background: #00acee;
 }
 
 
