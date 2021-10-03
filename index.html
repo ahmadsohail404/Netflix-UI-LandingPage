@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NETFLIX UI CLONE</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -14,11 +14,13 @@
   <body>
     <div class="container">
       <nav class="navbar">
+
         <div class="logo flex">
-          <img
+         <a href="./index.html"> <img
             src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
             alt="netflix-logo"
-          />
+          /></a>
+
         </div>
         <div class="signup flex">
           <a href="./signup.html" class="btn">Sign In</a>
@@ -53,7 +55,7 @@
         </h4>
       </div>
       <div class="img">
-        <img src="tv.png" alt="" />
+        <img src="assets/tv.png" alt="" />
       </div>
     </section>
     <section class="sec-3 flex">
@@ -62,7 +64,7 @@
         <h4>Save your favourites easily and always have something to watch.</h4>
       </div>
       <div class="img flex">
-        <img src="mobile-0819.jpg" alt="" />
+        <img src="assets/mobile-0819.jpg" alt="" />
       </div>
     </section>
 
@@ -74,19 +76,25 @@
         </h4>
       </div>
       <div class="img flex">
-        <img src="device-pile-in.png" alt="" />
+        <img src="assets/device-pile-in.png" alt="" />
       </div>
     </section>
     <section class="sec-3 flex">
       <div class="download-text flex">
         <h1>Create profiles for kids.</h1>
-        <h4>Send kids on adventures with their favorite characters in a space made just for them—</br>free with your membership.</h4>
+        <h4>
+          Send kids on adventures with their favourite characters in a space
+          made just for them—</br>free with your membership.
+        </h4>
       </div>
       <div class="img flex">
-        <img src="AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png" alt="" />
+        <img
+          src="assets/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png"
+          alt=""
+        />
       </div>
     </section>
-    <section class="sec-5 flex">
+    <section class="sec-5 flex" id="faqs">
       <h1 style="text-align: center; font-size: 3.2rem">
         Frequently Asked Questions
       </h1>
@@ -169,6 +177,8 @@
         </div>
       </div>
     </section>
+
+
     <footer class="flex">
       <div class="div flex">
         <p>Questions? Call <a href="tel:tel:000-8">000-800-040-1843</a></p>
@@ -176,11 +186,12 @@
       <div class="all-items flex">
         <div class="ul-1 flex">
           <ul>
-            <li><a href="">FAQ</a></li>
+            <li><a href="#faqs">FAQ</a></li>
             <li><a href="">Investor Relations</a></li>
             <li><a href="">Ways to Watch</a></li>
             <li><a href="">Corporate Information</a></li>
             <li><a href="">Only on Netflix</a></li>
+
           </ul>
           <ul>
             <li><a href="">Help Center</a></li>
@@ -208,6 +219,6 @@
         <p>Netflix India</p>
       </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
