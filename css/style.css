@@ -84,6 +84,7 @@ body {
 .email-input input {
   width: 60%;
   padding: 1.25rem 20px;
+  border-radius: 4px 0px 0px 4px;
 }
 .email-input input::placeholder {
   font-size: 16px;
