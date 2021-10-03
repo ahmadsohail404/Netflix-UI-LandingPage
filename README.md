@@ -5,7 +5,7 @@
 </div>
 <br>
 
-> NETFLIX LANDIG PAGE MADE USING HTML,CSS,BOOTSTRAP AND JAVASCRIPT
+> NETFLIX LANDIG PAGE DEVELOPED USING HTML,CSS,BOOTSTRAP AND JAVASCRIPT
 
 ## 🚀 Tech and Tools Used
 
@@ -14,7 +14,7 @@
 
 <h1 align="center"> Netflix UI Landing Page </h1>
 
-This is a Netflix UI Clone build on HTML, CSS, JavaScript.
+This is a Netflix UI Clone build on HTML, CSS, and JavaScript.
 
 <h4>[ In development Phase ] 
 [ Hacktoberfest-Accepted ] </h4>
