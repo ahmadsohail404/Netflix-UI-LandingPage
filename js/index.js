@@ -12,3 +12,15 @@ question.forEach((ques) => {
     i.classList.toggle("rotate");
   });
 });
+// SCROLL TO TOP BUTTON
+var x = document.getElementById("myDIV");
+window.addEventListener("scroll", function () {
+  let offset;
+  offset = window.pageYOffset;
+  if (offset > 225) {
+    x.style.display = "block";
+  }
+  if (offset < 200) {
+    x.style.display = "none";
+  }
+});
