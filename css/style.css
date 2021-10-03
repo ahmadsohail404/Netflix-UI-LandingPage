@@ -14,7 +14,7 @@ body{
     justify-content: center; 
 }
 .container{
-    background:rgba(0, 0, 0, 0.637) url(netflex-bg.jpg);
+    background:rgba(0, 0, 0, 0.637) url(../assets/netflex-bg.jpg);
     height: 700px;
     width: 100%;
     background-blend-mode: screen;
