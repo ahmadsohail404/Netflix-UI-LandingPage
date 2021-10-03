@@ -276,7 +276,7 @@ footer a:hover{
     margin: auto;
     background: rgba(0, 0, 0, 0.75);
     padding: 3%;
-    padding-bottom: 10%;
+    padding-bottom: 6%;
     
 }
 .from form{
@@ -307,6 +307,8 @@ footer a:hover{
  width: 90%;
  margin-top: 30px;
  padding: 1rem 0;
+ padding-right:80px;
+ padding-left:60px;
 }
 .else{
     width: 90%;
@@ -323,6 +325,40 @@ footer a:hover{
 .help{
     width: 50%;
     text-align: end;
+}
+p{
+    margin-top:20px;
+    font-size: large;
+}
+
+i{
+    padding-right: 30px;
+}
+
+.social-login{
+    margin-top:50px;
+    
+}
+
+.social-1 .btn{
+    padding-right:98px;
+    background: #de5246;
+}
+
+.social-2 .btn{
+    
+    background: #3B5998;
+}
+
+
+.social-3 .btn{
+    padding-right:100px;
+    background: #00acee;
+}
+
+
+.social-inside{
+    margin-top:50px;
 }
 
 @media(max-width:916px){
