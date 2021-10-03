@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NETFLIX UI CLONE</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
-    <link
-      rel="stylesheet"
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+   
+    <link rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,11 +15,13 @@
   <body>
     <div class="container">
       <nav class="navbar">
+
         <div class="logo flex">
-          <img
+         <a href="./index.html"> <img
             src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
             alt="netflix-logo"
-          />
+          /></a>
+
         </div>
         <div class="signup flex">
           <a href="./signup.html" class="btn">Sign In</a>
@@ -54,7 +56,7 @@
         </h4>
       </div>
       <div class="img">
-        <img src="tv.png" alt="" />
+        <img src="assets/tv.png" alt="" />
       </div>
     </section>
     <section class="sec-3 flex">
@@ -63,7 +65,7 @@
         <h4>Save your favourites easily and always have something to watch.</h4>
       </div>
       <div class="img flex">
-        <img src="mobile-0819.jpg" alt="" />
+        <img src="assets/mobile-0819.jpg" alt="" />
       </div>
     </section>
 
@@ -76,82 +78,109 @@
         </h4>
       </div>
       <div class="img flex">
-        <img src="device-pile-in.png" alt="" />
+        <img src="assets/device-pile-in.png" alt="" />
       </div>
     </section>
     <section class="sec-3 flex">
       <div class="download-text flex">
         <h1>Create profiles for childern.</h1>
-        <h4>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h4>
+        <h4>
+          Send children on adventures with their favourite characters in a space
+          made just for them—free with your membership.
+        </h4>
       </div>
       <div class="img flex">
-        <img src="AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png" alt="" />
+        <img
+          src="assets/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png"
+          alt="" />
       </div>
     </section>
-    <section class="sec-5 flex">
-      <h1 style="text-align: center; font-size: 3.2rem">
-        Frequently Asked Questions
-      </h1>
-      <div class="questions" id="questions">
-        <div class="question flex">
-          <p>What is NetFlix?</p>
-          <span class="plus"> <i class="fal fa-plus"></i> </span>
-        </div>
-        <div class="ans">
-          Netflix is a streaming service that offers a wide variety of
-          award-winning TV shows, movies, anime, documentaries and more – on
-          thousands of internet-connected devices.<br />
 
-          You can watch as much as you want, whenever you want, without a single
-          ad – all for one low monthly price. There's always something new to
-          discover, and new TV shows and movies are added every week!
+    <section class="sec-5">
+      <div class="container1">
+      <h1>Frequently Asked Questions</h1>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">What is NetFlix?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on
+              thousands of internet-connected devices.<br />
+    
+              You can watch as much as you want, whenever you want, without a single
+              ad – all for one low monthly price. There's always something new to
+              discover, and new TV shows and movies are added every week!
+              
+            </p>
+          </div>
         </div>
-
-        <div class="question flex">
-          <p>How much dose netflix costs?</p>
-          <span class="plus"> <i class="fal fa-plus"></i></span>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">How much dose netflix costs?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from ₹
+              199 to ₹ 799 a month. No extra costs, no contracts.
+              
+            </p>
+          </div>
         </div>
-        <div class="ans">
-          Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
-          streaming device, all for one fixed monthly fee. Plans range from ₹
-          199 to ₹ 799 a month. No extra costs, no contracts.
-        </div>
-
-        <div class="question flex">
-          <p>Where can I watch?</p>
-          <span class="plus"><i class="fal fa-plus"></i></span>
-        </div>
-        <div class="ans">
-          Watch anywhere, anytime, on an unlimited number of devices. Sign in
-          with your Netflix account to watch instantly on the web at netflix.com
-          from your personal computer or on any internet-connected device that
-          offers the Netflix app, including smart TVs, smartphones, tablets,
-          streaming media players and game consoles. You can also download your
-          favourite shows with the iOS, Android, or Windows 10 app. Use
-          downloads to watch while you're on the go and without an internet
-          connection. Take Netflix with you anywhere.
-        </div>
-
-        <div class="question flex">
-          <p>How do I cancel?</p>
-          <span class="plus"><i class="fal fa-plus"></i></span>
-        </div>
-        <div class="ans">
-          Netflix is flexible. There are no annoying contracts and no
-          commitments. You can easily cancel your account online in two clicks.
-          There are no cancellation fees – start or stop your account anytime.
-        </div>
-
-        <div class="question flex">
-          <p>What I can Watch on Netflix?</p>
-          <span class="plus"><i class="fal fa-plus"></i></span>
-        </div>
-        <div class="ans">
-          Netflix has an extensive library of feature films, documentaries, TV
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false">
+            <span class="accordion-title">What I can Watch on Netflix?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Netflix has an extensive library of feature films, documentaries,TV,
           shows, anime, award-winning Netflix originals, and more. Watch as much
           as you want, anytime you want.
+              
+            </p>
+          </div>
         </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false">
+            <span class="accordion-title">Where can I watch?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Watch anywhere, anytime, on an unlimited number of devices. Sign in
+              with your Netflix account to watch instantly on the web at netflix.com
+              from your personal computer or on any internet-connected device that
+              offers the Netflix app, including smart TVs, smartphones, tablets,
+              streaming media players and game consoles. You can also download your
+              favourite shows with the iOS, Android, or Windows 10 app. Use
+              downloads to watch while you're on the go and without an internet
+              connection. Take Netflix with you anywhere.
+              
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false">
+            <span class="accordion-title">How do I cancel?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Netflix is flexible. There are no annoying contracts and no
+          commitments. You can easily cancel your account online in two clicks.
+          There are no cancellation fees – start or stop your account anytime.
+              
+            </p>
+          </div>
+          </div>
       </div>
+      </div>    
       <div class="text flex">
         <p style="font-size: 20px">
           Ready to watch? Enter your email to create or restart your membership.
@@ -160,11 +189,12 @@
           <input type="email" placeholder="Email address" /><a
             href=""
             class="btn"
-            >Get started</a
-          >
+            >Get started</a>
         </div>
       </div>
     </section>
+
+
     <footer class="flex">
       <div class="div flex">
         <p>Questions?Call <a href="tel:tel:000-8">000-800-040-1843</a></p>
@@ -172,7 +202,7 @@
       <div class="all-items flex">
         <div class="ul-1 flex">
           <ul>
-            <li><a href="">FAQ</a></li>
+            <li><a href="#faqs">FAQ</a></li>
             <li><a href="">Investor Relation</a></li>
             <li><a href="">Privacy</a></li>
             <li><a href="">Spedd Test</a></li>
@@ -202,6 +232,6 @@
         <p>Netflix India</p>
       </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
