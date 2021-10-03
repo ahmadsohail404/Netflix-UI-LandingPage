@@ -140,9 +140,9 @@ Good Luck for your journey
 
 ---
 
-<h2>📬 Contact</h2>
+<h2>📬 Contact Us</h2>
 
-If you want to contact me, you can reach me through below handles.
+If you want to contact me, you can reach  through below handles.
 
 <div align="center">
 
