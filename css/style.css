@@ -164,127 +164,198 @@ body {
 section {
   padding: 1rem 0;
 }
-.sec-5 {
+.sec-5{
   width: 100%;
-  flex-direction: column;
   background: black;
   margin-top: 10px;
   color: white;
 }
-.sec-5 h1 {
+.sec-5 h1{
   padding-top: 5%;
+  padding-bottom: 5%;
 }
-.questions {
-  width: 70%;
-  margin: auto;
-}
-.question,
-.ans {
-  width: 100%;
-  height: 65px;
-  background: #303030;
-  margin-top: 20px;
-  justify-content: flex-start;
-  font-size: 1.4rem;
-  padding-left: 20px;
-  cursor: pointer;
-}
-.question {
-  position: relative;
-}
-.question p {
-  width: 90%;
-}
-.question span {
-  width: 10%;
-}
-.sec-5 {
-  width: 100%;
-  padding-bottom: 4rem;
-}
-.ans {
-  display: none;
-  transition: 0.3s ease;
+.container1 {
+  margin:  auto;
+  padding: 4rem;
+  width: 68rem;
+ 
 }
 
-.show {
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
   display: block;
-  height: auto;
-  transition: 0.3s ease;
-  padding: 1.8rem;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
 }
-.rotate {
-  transform: rotate(45deg);
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
 }
-.text {
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 17em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  width: 100%;
+  line-height: 2.2rem;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1.4rem;
+  padding-bottom:1rem;
+  font-weight: 500;
+  margin: 2rem 0rem;
+}
+
+.text{
   flex-direction: column;
   margin-top: 8%;
   width: 100%;
   text-align: center;
 }
-.text .email-input {
+.text .email-input{
   width: 70%;
   margin-top: 20px;
 }
-footer {
+footer{
   margin-top: 10px;
   background: black;
   padding: 7% 7%;
-  color: #757575;
-  flex-direction: column;
+  color: #757575; 
+  flex-direction:column ;
+
+  
 }
-footer .div {
+footer .div{
   margin-bottom: 20px;
   width: 100%;
+  
 }
-.div p {
+.div p{
   padding-left: 5%;
   flex-wrap: wrap;
   width: 100%;
+  
 }
 
-.all-items {
+.all-items{
+  
   align-items: flex-start !important;
+  
 }
-footer ul {
+footer ul{
   list-style: none;
-  margin: 0 2rem;
+  margin: 0  2rem;
 }
-footer ul li {
+footer ul li{
   padding: 7px;
 }
-footer a {
+footer a{
   text-decoration: none;
   color: #757575;
   font-size: 13px;
 }
-footer a:hover {
+footer a:hover{
   border-bottom: 1px solid #757575;
 }
-.india {
+.india{
   padding: 5%;
   width: 90%;
   align-items: flex-start !important;
 }
-.india p {
+.india p{
   width: 100%;
 }
 
 /* login page */
 
-.from {
+.from{
   width: 450px;
   margin: auto;
   background: rgba(0, 0, 0, 0.75);
   padding: 3%;
-  padding-bottom: 10%;
+  padding-bottom: 6%;
+  
 }
-.from form {
+.from form{
   width: 100%;
   flex-direction: column;
 }
-.from input {
-  background: #333;
+.from input{
+  background:#333;
   width: 90%;
   padding: 1.2rem 0.6rem;
   border-radius: 4px;
@@ -292,250 +363,186 @@ footer a:hover {
   outline: none;
   border: none;
 }
-.from input::placeholder {
+.from input::placeholder{
   font-size: 16px;
   color: #8c8c8c;
   padding-left: 15px;
 }
-.from h1 {
+.from h1{
   padding: 20px 0;
   align-self: flex-start;
   padding-left: 40px;
 }
-.from .btn {
-  border: none;
-  width: 90%;
-  margin-top: 30px;
-  padding: 1rem 0;
+.from .btn{
+border: none;
+width: 90%;
+margin-top: 30px;
+padding: 1rem 0;
+padding-right:80px;
+padding-left:60px;
 }
-.else {
+.else{
   width: 90%;
   font-size: 14px;
   color: rgb(167, 167, 167);
 }
-.else .in {
-  width: 50%;
-  text-align: start;
+.else .in{
+width: 50%;
+text-align: start;
 }
-.in input {
+.in input{
   background: #737373 !important;
 }
-.help {
+.help{
   width: 50%;
   text-align: end;
 }
+p{
+  margin-top:20px;
+  font-size: large;
+}
 
-@media (max-width: 916px) {
-  .container {
-    height: auto;
-  }
-  .main-text {
-    width: 70%;
-  }
-  .sec-2,
-  .sec-3 {
-    flex-direction: column;
-  }
-  .sec-2 .enjoy-text,
-  .sec-3 .download-text {
-    width: 100%;
-  }
-  .enjoy-text h1,
-  .enjoy-text h4 {
-    width: 90%;
-    text-align: center;
-    padding-top: 3rem;
-  }
-  .download-text h1,
-  .download-text h4 {
-    width: 90%;
-    text-align: center;
-    padding-top: 3rem;
-  }
-  .enjoy-text h4,
-  .download-text h4 {
-    padding-top: 0;
-    margin-top: 15px;
-  }
-  .sec-2 .img {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .sec-2 .img img {
-    width: 70%;
-    height: 70%;
-  }
-  .sec-3 .img img {
-    width: 100%;
-    height: 100%;
-  }
+i{
+  padding-right: 30px;
 }
-@media (max-width: 718px) {
-  .from {
-    width: 100%;
-    background: black;
-  }
-  .from input {
-    width: 95%;
-  }
-  .from .btn {
-    width: 95%;
-  }
-  .from h1 {
-    padding-left: 20px;
-  }
-  .else {
-    width: 95%;
-  }
+
+.social-login{
+  margin-top:50px;
+  
 }
-@media (max-width: 525px) {
-  .main-text {
-    width: 100%;
-  }
-  .email-input {
-    flex-direction: column;
-  }
-  .email-input input {
-    width: 90%;
-    border-radius: 4px;
-  }
-  .email-input .btn {
-    display: block;
-    margin-top: 10px;
-    font-size: 1rem;
-    border-radius: 4px;
-  }
-  .questions {
-    width: 90%;
-    font-size: 14px;
-    color: rgb(167, 167, 167);
+
+.social-1 .btn{
+  padding-right:98px;
+  background: #de5246;
 }
-.else .in{
- width: 50%;
- text-align: start;
+
+.social-2 .btn{
+  
+  background: #3B5998;
 }
-.in input{
-    background: #737373 !important;
+
+
+.social-3 .btn{
+  padding-right:100px;
+  background: #00acee;
 }
-.help{
-    width: 50%;
-    text-align: end;
+
+
+.social-inside{
+  margin-top:50px;
 }
 
 @media(max-width:916px){
-    .container{
-        height: auto;
-    }
-    .main-text{
-        width: 70%;
-    }
-    .sec-2 , .sec-3{
-        flex-direction: column;
-    }
-    .sec-2 .enjoy-text , .sec-3 .download-text{
-        width: 100%;
-    }
-    .enjoy-text h1, .enjoy-text h4{
-        width: 90%;
-        text-align: center;
-        padding-top: 3rem;
-    }
-    .download-text h1, .download-text h4{
-        width: 90%;
-        text-align: center;
-        padding-top: 3rem;  
-    }
-    .enjoy-text h4 , .download-text h4{
-        padding-top:0 ;
-        margin-top: 15px;
-    }
-    .sec-2 .img{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .sec-2 .img img{
-        width: 70%;
-        height: 70%;
-    }
-    .sec-3 .img img{
-        width: 100%;
-        height: 100%;
-    }
+  .container{
+      height: auto;
+  }
+  .main-text{
+      width: 70%;
+  }
+  .sec-2 , .sec-3{
+      flex-direction: column;
+  }
+  .sec-2 .enjoy-text , .sec-3 .download-text{
+      width: 100%;
+  }
+  .enjoy-text h1, .enjoy-text h4{
+      width: 90%;
+      text-align: center;
+      padding-top: 3rem;
+  }
+  .download-text h1, .download-text h4{
+      width: 90%;
+      text-align: center;
+      padding-top: 3rem;  
+  }
+  .enjoy-text h4 , .download-text h4{
+      padding-top:0 ;
+      margin-top: 15px;
+  }
+  .sec-2 .img{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .sec-2 .img img{
+      width: 70%;
+      height: 70%;
+  }
+  .sec-3 .img img{
+      width: 100%;
+      height: 100%;
+  }
 }
 @media(max-width:718px){
-    .from{
-        width: 100%;
-        background: black;
-        
-    }
-    .from input{
-        width: 95%;
-    }
-    .from .btn{
-        width: 95%;
-    }
-    .from h1{
-        padding-left: 20px;
-    }
-    .else{
-        width: 95%;
-    }
+  .from{
+      width: 100%;
+      background: black;
+      
+  }
+  .from input{
+      width: 95%;
+  }
+  .from .btn{
+      width: 95%;
+  }
+  .from h1{
+      padding-left: 20px;
+  }
+  .else{
+      width: 95%;
+  }
 }
 @media(max-width:247px) and (min-width: 200px){
-   html{
-       font-size: 20%;
-   }
-    
+ html{
+     font-size: 20%;
+ }
+  
 }
 @media(max-width:200px) and (min-width: 55px){
-   html{
-       font-size: 5%;
-   }
-    
+ html{
+     font-size: 5%;
+ }
+  
 }
 @media(max-width:525px){
-    .main-text{
-        width: 100%;
-    }
-    .email-input{
-        flex-direction: column;
-    }
-    .email-input input {
+  .main-text{
+      width: 100%;
+  }
+  .email-input{
+      flex-direction: column;
+  }
+  .email-input input {
+    width: 90%;
+  }
+  .email-input .btn{
+      display: block;
+      margin-top: 10px;
+      font-size: 1rem;
+  }
+  .questions{
       width: 90%;
-    }
-    .email-input .btn{
-        display: block;
-        margin-top: 10px;
-        font-size: 1rem;
-    }
-    .questions{
-        width: 90%;
-    }
-    .ul-1,.ul-2{
-        flex-direction: column;
-    }
-    html{
-        font-size: 70.25%;
-    }
-    .all-items{
-        text-align: justify;
-    }
-    .ul-1,.ul-2{
-        align-items: flex-start !important;
-    }
-    .navbar img{
-        width: 100px;
-        height: 30px;
-    }
-    .logo{
-        padding: 0 1rem;
-    }
-    .signup{
-        margin-right: 22px;
-    }
-}
+  }
+  .ul-1,.ul-2{
+      flex-direction: column;
+  }
+  html{
+      font-size: 70.25%;
+  }
+  .all-items{
+      text-align: justify;
+  }
+  .ul-1,.ul-2{
+      align-items: flex-start !important;
+  }
+  .navbar img{
+      width: 100px;
+      height: 30px;
+  }
+  .logo{
+      padding: 0 1rem;
+  }
+  .signup{
+      margin-right: 22px;
+  }
 }
