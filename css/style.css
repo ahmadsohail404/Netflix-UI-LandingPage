@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background:#181717;
+    background:#000;
 }
 .flex{
     display: flex;
@@ -151,8 +151,16 @@ margin-top: 1.4rem;
     padding: 5% 0;
 }
 section{
+    border-top: 8px solid #222;
     padding: 1rem 0;
+    width: 100%;
 }
+
+section div:first-child {
+    max-width: 1100px;
+    margin: auto;
+}
+
 /*FAQ section*/
 .sec-5{
     width: 100%;
@@ -167,12 +175,12 @@ section{
 .container1 {
     margin:  auto;
     padding: 4rem;
-    width: 68rem;
-   
+    width: 100%;
   }
   
 .accordion .accordion-item {
     border-bottom: 1px solid #e5e5e5;
+    max-width: 100%;
   }
   
   .accordion .accordion-item button[aria-expanded='true'] {
@@ -286,17 +294,21 @@ footer{
     padding: 7% 7%;
     color: #757575; 
     flex-direction:column ;
-
+    width: 100%;
     
 }
+
+footer div:first-child {
+    max-width: 1100px;
+    margin: auto;
+}
+
 footer .div{
     margin-bottom: 20px;
     width: 100%;
     
 }
 .div p{
-    padding-left: 5%;
-    flex-wrap: wrap;
     width: 100%;
     
 }
@@ -308,10 +320,9 @@ footer .div{
 }
 footer ul{
     list-style: none;
-    margin: 0  2rem;
 }
 footer ul li{
-    padding: 7px;
+    padding: 7px 0;
 }
 footer a{
     text-decoration: none;
@@ -321,12 +332,18 @@ footer a{
 footer a:hover{
     border-bottom: 1px solid #757575;
 }
+
+.footer-links-wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .india{
-    padding: 5%;
-    width: 90%;
     align-items: flex-start !important;
 }
 .india p{
+    font-size: 15px;
     width: 100%;
 }
 
@@ -482,6 +499,10 @@ i{
     .else{
         width: 95%;
     }
+
+    .footer-links-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media(max-width:247px) and (min-width: 200px){
    html{
@@ -534,5 +555,9 @@ i{
     }
     .signup{
         margin-right: 22px;
+    }
+
+    .footer-links-wrapper {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
