@@ -157,10 +157,14 @@ body {
   color: #fff;
   flex-direction: column;
 }
-.enjoy-text h1,
-.enjoy-text h4 {
-  font-size: 3rem;
-  width: 80%;
+.container {
+  background: rgba(0, 0, 0, 0.637) url(../assets/netflex-bg.jpg);
+  height: 700px;
+  width: 100%;
+  background-blend-mode: screen;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
 }
 .download-text h1,
 .download-text h4 {
@@ -212,20 +216,23 @@ section {
 .sec-5 h1 {
   padding-top: 5%;
 }
-.questions {
-  width: 70%;
-  margin: auto;
+.email-input input {
+  width: 60%;
+  padding: 1.3rem 20px;
 }
-.question,
-.ans {
-  width: 100%;
-  height: 65px;
-  background: #303030;
-  margin-top: 20px;
-  justify-content: flex-start;
+.email-input input::placeholder {
+  font-size: 16px;
+}
+.email-input .btn {
+  width: 40% !important;
+  border-radius: 0;
+  display: inline-block;
+  padding: 1rem 0;
+  padding-bottom: 1.2rem;
   font-size: 1.4rem;
-  padding-left: 20px;
-  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
 }
 .question {
   position: relative;
@@ -361,6 +368,115 @@ footer a:hover {
 .help {
   width: 50%;
   text-align: end;
+}
+
+@media (max-width: 916px) {
+  .container {
+    height: auto;
+  }
+  .main-text {
+    width: 70%;
+  }
+  .sec-2,
+  .sec-3 {
+    flex-direction: column;
+  }
+  .sec-2 .enjoy-text,
+  .sec-3 .download-text {
+    width: 100%;
+  }
+  .enjoy-text h1,
+  .enjoy-text h4 {
+    width: 90%;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  .download-text h1,
+  .download-text h4 {
+    width: 90%;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  .enjoy-text h4,
+  .download-text h4 {
+    padding-top: 0;
+    margin-top: 15px;
+  }
+  .sec-2 .img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec-2 .img img {
+    width: 70%;
+    height: 70%;
+  }
+  .sec-3 .img img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 718px) {
+  .from {
+    width: 100%;
+    background: black;
+  }
+  .from input {
+    width: 95%;
+  }
+  .from .btn {
+    width: 95%;
+  }
+  .from h1 {
+    padding-left: 20px;
+  }
+  .else {
+    width: 95%;
+  }
+}
+@media (max-width: 525px) {
+  .main-text {
+    width: 100%;
+  }
+  .email-input {
+    flex-direction: column;
+  }
+  .email-input input {
+    width: 90%;
+  }
+  .email-input .btn {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .questions {
+    width: 90%;
+  }
+  .ul-1,
+  .ul-2 {
+    flex-direction: column;
+  }
+  html {
+    font-size: 80.25%;
+  }
+  .all-items {
+    text-align: justify;
+  }
+  .ul-1,
+  .ul-2 {
+    align-items: flex-start !important;
+  }
+  .navbar img {
+    width: 100px;
+    height: 30px;
+  }
+  .logo {
+    padding: 0 1rem;
+  }
+  .signup {
+    margin-right: 22px;
+  }
 }
 
 @media (max-width: 916px) {
