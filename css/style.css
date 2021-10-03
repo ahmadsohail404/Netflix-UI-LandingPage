@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background:rgb(39, 39, 39);
+    background:#181717;
 }
 .flex{
     display: flex;
@@ -48,7 +48,7 @@ body{
     text-decoration: none;
     justify-self: flex-end;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 .navbar img{
     width: 150px;
