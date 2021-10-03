@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   padding: 0;
@@ -10,7 +9,7 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background: rgb(39, 39, 39);
+  background: #181717;
 }
 .flex {
   display: flex;
@@ -35,14 +34,12 @@ body {
   justify-content: flex-end;
   margin-right: 55px;
   width: 50%;
-
 }
 .logo {
   width: 50%;
   justify-content: flex-start;
   padding: 0 3rem;
 }
-
 
 .btn {
   background: #e50914;
@@ -53,7 +50,7 @@ body {
   text-decoration: none;
   justify-self: flex-end;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .navbar img {
   width: 150px;
@@ -116,7 +113,6 @@ body {
   width: 50%;
   color: #fff;
   flex-direction: column;
-
 }
 .enjoy-text h1,
 .enjoy-text h4 {
@@ -163,59 +159,122 @@ body {
 section {
   padding: 1rem 0;
 }
+/*FAQ section*/
 .sec-5 {
   width: 100%;
-  flex-direction: column;
   background: black;
   margin-top: 10px;
   color: white;
 }
 .sec-5 h1 {
   padding-top: 5%;
+  padding-bottom: 5%;
 }
-.questions {
-  width: 70%;
+.container1 {
   margin: auto;
+  padding: 4rem;
+  width: 68rem;
 }
-.question,
-.ans {
-  width: 100%;
-  height: 65px;
-  background: #303030;
-  margin-top: 20px;
-  justify-content: flex-start;
-  font-size: 1.4rem;
-  padding-left: 20px;
-  cursor: pointer;
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
 }
-.question {
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
   position: relative;
-}
-.question p {
-  width: 90%;
-}
-
-.question span {
-  width: 10%;
-}
-.sec-5 {
-  width: 100%;
-  padding-bottom: 4rem;
-}
-.ans {
-  display: none;
-  transition: 0.3s ease;
-}
-
-.show {
   display: block;
-  height: auto;
-  transition: 0.3s ease;
-  padding: 1.8rem;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
 }
-.rotate {
-  transform: rotate(45deg);
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
 }
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded="true"] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded="true"] + .accordion-content {
+  opacity: 1;
+  max-height: 17em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  width: 100%;
+  line-height: 2.2rem;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  margin: 2rem 0rem;
+}
+
 .text {
   flex-direction: column;
   margin-top: 8%;
@@ -252,130 +311,6 @@ footer ul {
 }
 footer ul li {
   padding: 7px;
-
-/*FAQ section*/
-.sec-5{
-    width: 100%;
-    background: black;
-    margin-top: 10px;
-    color: white;
-}
-.sec-5 h1{
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.container1 {
-    margin:  auto;
-    padding: 4rem;
-    width: 68rem;
-   
-  }
-  
-.accordion .accordion-item {
-    border-bottom: 1px solid #e5e5e5;
-  }
-  
-  .accordion .accordion-item button[aria-expanded='true'] {
-    border-bottom: 1px solid #03b5d2;
-  }
-  
-  .accordion button {
-    position: relative;
-    display: block;
-    text-align: left;
-    width: 100%;
-    padding: 1em 0;
-    color: #7288a2;
-    font-size: 1.4rem;
-    font-weight: 400;
-    border: none;
-    background: none;
-    outline: none;
-  }
-  
-  .accordion button:hover,
-  .accordion button:focus {
-    cursor: pointer;
-    color: #03b5d2;
-  }
-  
-  .accordion button:hover::after,
-  .accordion button:focus::after {
-    cursor: pointer;
-    color: #03b5d2;
-    border: 1px solid #03b5d2;
-  }
-  
-  .accordion button .accordion-title {
-    padding: 1em 1.5em 1em 0;
-  }
-  
-  .accordion button .icon {
-    display: inline-block;
-    position: absolute;
-    top: 18px;
-    right: 0;
-    width: 22px;
-    height: 22px;
-    border: 1px solid;
-    border-radius: 22px;
-  }
-  
-  .accordion button .icon::before {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 9px;
-    left: 5px;
-    width: 10px;
-    height: 2px;
-    background: currentColor;
-  }
-  .accordion button .icon::after {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 5px;
-    left: 9px;
-    width: 2px;
-    height: 10px;
-    background: currentColor;
-  }
-  
-  .accordion button[aria-expanded='true'] {
-    color: #03b5d2;
-  }
-  .accordion button[aria-expanded='true'] .icon::after {
-    width: 0;
-  }
-  .accordion button[aria-expanded='true'] + .accordion-content {
-    opacity: 1;
-    max-height: 17em;
-    transition: all 200ms linear;
-    will-change: opacity, max-height;
-  }
-  .accordion .accordion-content {
-    width: 100%;
-    line-height: 2.2rem;
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: opacity 200ms linear, max-height 200ms linear;
-    will-change: opacity, max-height;
-  }
-  .accordion .accordion-content p {
-    font-size: 1.4rem;
-    padding-bottom:1rem;
-    font-weight: 500;
-    margin: 2rem 0rem;
-  }
-
-.text{
-    flex-direction: column;
-    margin-top: 8%;
-    width: 100%;
-    text-align: center;
-
 }
 footer a {
   text-decoration: none;
@@ -401,7 +336,7 @@ footer a:hover {
   margin: auto;
   background: rgba(0, 0, 0, 0.75);
   padding: 3%;
-  padding-bottom: 10%;
+  padding-bottom: 6%;
 }
 .from form {
   width: 100%;
@@ -431,6 +366,8 @@ footer a:hover {
   width: 90%;
   margin-top: 30px;
   padding: 1rem 0;
+  padding-right: 80px;
+  padding-left: 60px;
 }
 .else {
   width: 90%;
@@ -447,6 +384,36 @@ footer a:hover {
 .help {
   width: 50%;
   text-align: end;
+}
+p {
+  margin-top: 20px;
+  font-size: large;
+}
+
+i {
+  padding-right: 30px;
+}
+
+.social-login {
+  margin-top: 50px;
+}
+
+.social-1 .btn {
+  padding-right: 98px;
+  background: #de5246;
+}
+
+.social-2 .btn {
+  background: #3b5998;
+}
+
+.social-3 .btn {
+  padding-right: 100px;
+  background: #00acee;
+}
+
+.social-inside {
+  margin-top: 50px;
 }
 
 @media (max-width: 916px) {
@@ -514,23 +481,18 @@ footer a:hover {
     width: 95%;
   }
 }
-
+@media (max-width: 247px) and (min-width: 200px) {
+  html {
+    font-size: 20%;
+  }
+}
+@media (max-width: 200px) and (min-width: 55px) {
+  html {
+    font-size: 5%;
+  }
+}
 @media (max-width: 525px) {
   .main-text {
-
-
-/* login page */
-
-.from{
-    width: 450px;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.75);
-    padding: 3%;
-    padding-bottom: 6%;
-    
-}
-.from form{
-
     width: 100%;
   }
   .email-input {
@@ -538,7 +500,6 @@ footer a:hover {
   }
   .email-input input {
     width: 90%;
-
   }
   .email-input .btn {
     display: block;
@@ -546,32 +507,6 @@ footer a:hover {
     font-size: 1rem;
   }
   .questions {
-
-    padding: 1.2rem 0.6rem;
-    border-radius: 4px;
-    margin: 10px;
-    outline: none;
-    border: none;
-}
-.from input::placeholder{
-    font-size: 16px;
-    color: #8c8c8c;
-    padding-left: 15px;
-}
-.from h1{
-    padding: 20px 0;
-    align-self: flex-start;
-    padding-left: 40px;
-}
-.from .btn{
- border: none;
- width: 90%;
- margin-top: 30px;
- padding: 1rem 0;
- padding-right:80px;
- padding-left:60px;
-}
-.else{
     width: 90%;
   }
   .ul-1,
@@ -579,7 +514,7 @@ footer a:hover {
     flex-direction: column;
   }
   html {
-    font-size: 80.25%;
+    font-size: 70.25%;
   }
   .all-items {
     text-align: justify;
@@ -600,6 +535,7 @@ footer a:hover {
   }
 }
 
+/*Scroller css*/
 .arrow-btn {
   position: fixed;
   bottom: 30px;
@@ -607,168 +543,18 @@ footer a:hover {
   z-index: 9;
   display: none;
 }
-p{
-    margin-top:20px;
-    font-size: large;
-}
-
-i{
-    padding-right: 30px;
-}
-
-.social-login{
-    margin-top:50px;
-    
-}
-
-.social-1 .btn{
-    padding-right:98px;
-    background: #de5246;
-}
-
-.social-2 .btn{
-    
-    background: #3B5998;
-}
-
-
-.social-3 .btn{
-    padding-right:100px;
-    background: #00acee;
-}
-
-
-.social-inside{
-    margin-top:50px;
-}
-
 
 .arrow-btn a {
   height: 50px;
   width: 45px;
   text-align: center;
-  background-color: #1b1b1b;
+  background-color: #f2f2f2;
   display: block;
-  border-radius: 7px;
+  border-radius: 35px;
   cursor: pointer;
 }
 .arrow-btn a span {
-  color: #f2f2f2;
+  color: black;
   line-height: 50px;
   font-size: 25px;
-
-@media(max-width:916px){
-    .container{
-        height: auto;
-    }
-    .main-text{
-        width: 70%;
-    }
-    .sec-2 , .sec-3{
-        flex-direction: column;
-    }
-    .sec-2 .enjoy-text , .sec-3 .download-text{
-        width: 100%;
-    }
-    .enjoy-text h1, .enjoy-text h4{
-        width: 90%;
-        text-align: center;
-        padding-top: 3rem;
-    }
-    .download-text h1, .download-text h4{
-        width: 90%;
-        text-align: center;
-        padding-top: 3rem;  
-    }
-    .enjoy-text h4 , .download-text h4{
-        padding-top:0 ;
-        margin-top: 15px;
-    }
-    .sec-2 .img{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .sec-2 .img img{
-        width: 70%;
-        height: 70%;
-    }
-    .sec-3 .img img{
-        width: 100%;
-        height: 100%;
-    }
-}
-@media(max-width:718px){
-    .from{
-        width: 100%;
-        background: black;
-        
-    }
-    .from input{
-        width: 95%;
-    }
-    .from .btn{
-        width: 95%;
-    }
-    .from h1{
-        padding-left: 20px;
-    }
-    .else{
-        width: 95%;
-    }
-}
-@media(max-width:247px) and (min-width: 200px){
-   html{
-       font-size: 20%;
-   }
-    
-}
-@media(max-width:200px) and (min-width: 55px){
-   html{
-       font-size: 5%;
-   }
-    
-}
-@media(max-width:525px){
-    .main-text{
-        width: 100%;
-    }
-    .email-input{
-        flex-direction: column;
-    }
-    .email-input input {
-      width: 90%;
-    }
-    .email-input .btn{
-        display: block;
-        margin-top: 10px;
-        font-size: 1rem;
-    }
-    .questions{
-        width: 90%;
-    }
-    .ul-1,.ul-2{
-        flex-direction: column;
-    }
-    html{
-        font-size: 70.25%;
-    }
-    .all-items{
-        text-align: justify;
-    }
-    .ul-1,.ul-2{
-        align-items: flex-start !important;
-    }
-    .navbar img{
-        width: 100px;
-        height: 30px;
-    }
-    .logo{
-        padding: 0 1rem;
-    }
-    .signup{
-        margin-right: 22px;
-    }
-
 }
