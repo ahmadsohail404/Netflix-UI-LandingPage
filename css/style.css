@@ -409,29 +409,133 @@ footer a:hover {
   }
   .questions {
     width: 90%;
-  }
-  .ul-1,
-  .ul-2 {
-    flex-direction: column;
-  }
-  html {
-    font-size: 80.25%;
-  }
-  .all-items {
-    text-align: justify;
-  }
-  .ul-1,
-  .ul-2 {
-    align-items: flex-start !important;
-  }
-  .navbar img {
-    width: 100px;
-    height: 30px;
-  }
-  .logo {
-    padding: 0 1rem;
-  }
-  .signup {
-    margin-right: 22px;
-  }
+    font-size: 14px;
+    color: rgb(167, 167, 167);
+}
+.else .in{
+ width: 50%;
+ text-align: start;
+}
+.in input{
+    background: #737373 !important;
+}
+.help{
+    width: 50%;
+    text-align: end;
+}
+
+@media(max-width:916px){
+    .container{
+        height: auto;
+    }
+    .main-text{
+        width: 70%;
+    }
+    .sec-2 , .sec-3{
+        flex-direction: column;
+    }
+    .sec-2 .enjoy-text , .sec-3 .download-text{
+        width: 100%;
+    }
+    .enjoy-text h1, .enjoy-text h4{
+        width: 90%;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .download-text h1, .download-text h4{
+        width: 90%;
+        text-align: center;
+        padding-top: 3rem;  
+    }
+    .enjoy-text h4 , .download-text h4{
+        padding-top:0 ;
+        margin-top: 15px;
+    }
+    .sec-2 .img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-2 .img img{
+        width: 70%;
+        height: 70%;
+    }
+    .sec-3 .img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:718px){
+    .from{
+        width: 100%;
+        background: black;
+        
+    }
+    .from input{
+        width: 95%;
+    }
+    .from .btn{
+        width: 95%;
+    }
+    .from h1{
+        padding-left: 20px;
+    }
+    .else{
+        width: 95%;
+    }
+}
+@media(max-width:247px) and (min-width: 200px){
+   html{
+       font-size: 20%;
+   }
+    
+}
+@media(max-width:200px) and (min-width: 55px){
+   html{
+       font-size: 5%;
+   }
+    
+}
+@media(max-width:525px){
+    .main-text{
+        width: 100%;
+    }
+    .email-input{
+        flex-direction: column;
+    }
+    .email-input input {
+      width: 90%;
+    }
+    .email-input .btn{
+        display: block;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    .questions{
+        width: 90%;
+    }
+    .ul-1,.ul-2{
+        flex-direction: column;
+    }
+    html{
+        font-size: 70.25%;
+    }
+    .all-items{
+        text-align: justify;
+    }
+    .ul-1,.ul-2{
+        align-items: flex-start !important;
+    }
+    .navbar img{
+        width: 100px;
+        height: 30px;
+    }
+    .logo{
+        padding: 0 1rem;
+    }
+    .signup{
+        margin-right: 22px;
+    }
+}
 }
