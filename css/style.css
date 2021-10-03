@@ -385,6 +385,18 @@ footer a:hover{
         width: 95%;
     }
 }
+@media(max-width:247px) and (min-width: 200px){
+   html{
+       font-size: 20%;
+   }
+    
+}
+@media(max-width:200px) and (min-width: 55px){
+   html{
+       font-size: 5%;
+   }
+    
+}
 @media(max-width:525px){
     .main-text{
         width: 100%;
@@ -407,7 +419,7 @@ footer a:hover{
         flex-direction: column;
     }
     html{
-        font-size: 80.25%;
+        font-size: 70.25%;
     }
     .all-items{
         text-align: justify;
