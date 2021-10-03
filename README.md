@@ -136,7 +136,7 @@ Good Luck for your journey
   <img src="https://contrib.rocks/image?repo=ahmadsohail404/Netflix-UI-LandingPage" />
 </a>
 
-<h1 align=center>Happy Coding 👨‍💻 </h1>
+<h1 align=center> Sohail Ahmad </h1>
 
 ---
 
