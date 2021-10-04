@@ -82,25 +82,25 @@ body {
   font-size: 1.3rem;
 }
 .email-input {
-  width: 100%;
+  width: 89%;
 }
 .email-input input {
-  width: 60%;
-  padding: 1.3rem 20px;
+  width: 80%;
+  padding: 1.3rem 12px;
 }
 .email-input input::placeholder {
   font-size: 16px;
 }
 .email-input .btn {
-  width: 40% !important;
+  width: 35% !important;
   border-radius: 0;
   display: inline-block;
   padding: 1rem 0;
   padding-bottom: 1.2rem;
   font-size: 1.4rem;
-  text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
+  justify-self: left;
 }
 .sec-2 {
   background: black;
@@ -281,8 +281,8 @@ section {
   width: 100%;
   text-align: center;
 }
-.text .email-input {
-  width: 70%;
+.text .email-input{
+  width: 49.5%;
   margin-top: 20px;
 }
 footer {
