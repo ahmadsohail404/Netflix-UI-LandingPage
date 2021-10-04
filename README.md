@@ -5,7 +5,7 @@
 </div>
 <br>
 
-> NETFLIX LANDIG PAGE MADE USING HTML,CSS,BOOTSTRAP AND JAVASCRIPT
+> NETFLIX LANDIG PAGE DEVELOPED USING HTML,CSS,BOOTSTRAP AND JAVASCRIPT
 
 ## 🚀 Tech and Tools Used
 
@@ -14,7 +14,7 @@
 
 <h1 align="center"> Netflix UI Landing Page </h1>
 
-This is a Netflix UI Clone build on HTML, CSS, JavaScript.
+This is a Netflix UI Clone build on HTML, CSS, and JavaScript.
 
 <h4>[ In development Phase ] 
 [ Hacktoberfest-Accepted ] </h4>
@@ -28,6 +28,7 @@ This is a Netflix UI Clone build on HTML, CSS, JavaScript.
 So, here you go! Star this Repo and fork it to start contributing for Hacktober Fest 2021. 🤩 Excited?
 
 # Contribution is fun! 🧡
+
 - Create issues and start
 - Add features
 - Enhance the UX
@@ -128,21 +129,20 @@ Congratulations! You've already made your first contribution.🥳
 
 Good Luck for your journey
 
-<h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
+<h1 align=center> Project Maintainer & Admin </h1>
 <p align="center">
   
-	
 <a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ahmadsohail404/Netflix-UI-LandingPage" />
 </a>
 
-<h1 align=center>Happy Coding 👨‍💻 </h1>
+<h1 align=center> Sohail Ahmad </h1>
 
 ---
 
 <h2>📬 Contact Us</h2>
 
-If you want to contact me, you can reach  through below handles.
+If you want to contact me, you can reach through below handles.
 
 <div align="center">
 
