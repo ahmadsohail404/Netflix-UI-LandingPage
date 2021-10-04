@@ -51,6 +51,7 @@ body {
   justify-self: flex-end;
   text-align: center;
   border-radius: 3px;
+  cursor: pointer;
 }
 .navbar img {
   width: 150px;
@@ -384,6 +385,11 @@ footer a:hover {
 .help {
   width: 50%;
   text-align: end;
+}
+
+.help a {
+  cursor: pointer;
+  color: #b3b3b3;
 }
 p {
   margin-top: 20px;
