@@ -129,14 +129,14 @@ Congratulations! You've already made your first contribution.🥳
 
 Good Luck for your journey
 
-<h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
+<h1 align=center> Project Maintainer & Admin </h1>
 <p align="center">
   
 <a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ahmadsohail404/Netflix-UI-LandingPage" />
 </a>
 
-<h1 align=center>Happy Coding 👨‍💻 </h1>
+<h1 align=center> Sohail Ahmad </h1>
 
 ---
 
