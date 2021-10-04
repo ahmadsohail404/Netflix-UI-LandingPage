@@ -19,7 +19,7 @@ This is a Netflix UI Clone build on HTML, CSS, and JavaScript.
 <h4>[ In development Phase ] 
 [ Hacktoberfest-Accepted ] </h4>
 <h2> 
-<a href="https://github.com/ahmadsohail404/Netflix-UI-LandingPage" target="_blank"> Visit this website 🚀</a>
+<a href="https://ahmadsohail404.github.io/Netflix-UI-LandingPage/" target="_blank"> Visit this website 🚀</a>
 
 <a href="https://discord.gg/vWJpGNkr" target="_blank">Join Us On Discord ⚡</a>
 
