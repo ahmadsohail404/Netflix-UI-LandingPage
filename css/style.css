@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   padding: 0;
@@ -7,9 +8,9 @@
 html {
   scroll-behavior: smooth;
 }
-body {
-  font-family: "Roboto", sans-serif;
-  background: #181717;
+body{
+    font-family: 'Roboto', sans-serif;
+    background:#000;
 }
 .flex {
   display: flex;
@@ -204,6 +205,24 @@ section {
   cursor: pointer;
   color: #03b5d2;
 }
+section{
+    border-top: 8px solid #222;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+section div:first-child {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/*FAQ section*/
+.sec-5{
+    width: 100%;
+    background: black;
+    margin-top: 10px;
+    color: white;
+}
 
 .accordion button:hover::after,
 .accordion button:focus::after {
@@ -226,6 +245,111 @@ section {
   border: 1px solid;
   border-radius: 22px;
 }
+.container1 {
+    margin:  auto;
+    padding: 4rem;
+    width: 100%;
+  }
+  
+.accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+    max-width: 100%;
+  }
+  
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #03b5d2;
+  }
+  
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #03b5d2;
+  }
+  
+  .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
+  }
+  
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .accordion button[aria-expanded='true'] {
+    color: #03b5d2;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 17em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    width: 100%;
+    line-height: 2.2rem;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 1.4rem;
+    padding-bottom:1rem;
+    font-weight: 500;
+    margin: 2rem 0rem;
+  }
 
 .accordion button .icon::before {
   display: block;
@@ -275,43 +399,49 @@ section {
   font-weight: 500;
   margin: 2rem 0rem;
 }
-
 .text {
-  flex-direction: column;
-  margin-top: 8%;
-  width: 100%;
-  text-align: center;
+    flex-direction: column;
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+  }
+  .text .email-input {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  footer{
+    margin-top: 10px;
+    background: black;
+    padding: 7% 7%;
+    color: #757575; 
+    flex-direction:column ;
+    width: 100%;
+    
 }
-.text .email-input {
-  width: 70%;
-  margin-top: 20px;
+
+footer div:first-child {
+    max-width: 1100px;
+    margin: auto;
 }
-footer {
-  margin-top: 10px;
-  background: black;
-  padding: 7% 7%;
-  color: #757575;
-  flex-direction: column;
+
+footer .div{
+    margin-bottom: 20px;
+    width: 100%;
+    
 }
-footer .div {
-  margin-bottom: 20px;
-  width: 100%;
-}
-.div p {
-  padding-left: 25%;
-  flex-wrap: wrap;
-  width: 100%;
+.div p{
+    width: 100%;
 }
 
 .all-items {
   align-items: flex-start !important;
 }
-footer ul {
-  list-style: none;
-  margin: 0 2rem;
+footer ul{
+    list-style: none;
 }
-footer ul li {
-  padding: 7px;
+footer ul li{
+    padding: 7px 0;
 }
 footer a {
   text-decoration: none;
@@ -321,13 +451,19 @@ footer a {
 footer a:hover {
   border-bottom: 1px solid #757575;
 }
-.india {
-  padding-left: 20%;
-  width: 90%;
-  align-items: flex-start !important;
+
+.footer-links-wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
-.india p {
-  width: 100%;
+
+.india{
+    align-items: flex-start !important;
+}
+.india p{
+    font-size: 15px;
+    width: 100%;
 }
 
 /* login page */
@@ -550,6 +686,128 @@ i {
   display: none;
 }
 
+@media(max-width:916px){
+    .container{
+        height: auto;
+    }
+    .main-text{
+        width: 70%;
+    }
+    .sec-2 , .sec-3{
+        flex-direction: column;
+    }
+    .sec-2 .enjoy-text , .sec-3 .download-text{
+        width: 100%;
+    }
+    .enjoy-text h1, .enjoy-text h4{
+        width: 90%;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .download-text h1, .download-text h4{
+        width: 90%;
+        text-align: center;
+        padding-top: 3rem;  
+    }
+    .enjoy-text h4 , .download-text h4{
+        padding-top:0 ;
+        margin-top: 15px;
+    }
+    .sec-2 .img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-2 .img img{
+        width: 70%;
+        height: 70%;
+    }
+    .sec-3 .img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:718px){
+    .from{
+        width: 100%;
+        background: black;
+        
+    }
+    .from input{
+        width: 95%;
+    }
+    .from .btn{
+        width: 95%;
+    }
+    .from h1{
+        padding-left: 20px;
+    }
+    .else{
+        width: 95%;
+    }
+
+    .footer-links-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width:247px) and (min-width: 200px){
+   html{
+       font-size: 20%;
+   }
+    
+}
+@media(max-width:200px) and (min-width: 55px){
+   html{
+       font-size: 5%;
+   }
+    
+}
+@media(max-width:525px){
+    .main-text{
+        width: 100%;
+    }
+    .email-input{
+        flex-direction: column;
+    }
+    .email-input input {
+      width: 90%;
+    }
+    .email-input .btn{
+        display: block;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    .questions{
+        width: 90%;
+    }
+    .ul-1,.ul-2{
+        flex-direction: column;
+    }
+    html{
+        font-size: 70.25%;
+    }
+    .all-items{
+        text-align: justify;
+    }
+    .ul-1,.ul-2{
+        align-items: flex-start !important;
+    }
+    .navbar img{
+        width: 100px;
+        height: 30px;
+    }
+    .logo{
+        padding: 0 1rem;
+    }
+    .signup{
+        margin-right: 22px;
+    }
+
+    .footer-links-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 .arrow-btn a {
   height: 50px;
   width: 45px;
