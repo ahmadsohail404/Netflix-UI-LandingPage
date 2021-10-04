@@ -31,7 +31,7 @@ body{
   padding: 1rem 0;
   height: 100px;
 }
-.signup {
+.signin {
   justify-content: flex-end;
   margin-right: 55px;
   width: 50%;
@@ -531,7 +531,7 @@ i {
 }
 
 .social-login {
-  margin-top: 50px;
+  margin-top: 4%;
 }
 
 .social-1 .btn {
@@ -666,7 +666,7 @@ i {
   .logo {
     padding: 0 1rem;
   }
-  .signup {
+  .signin {
     margin-right: 22px;
   }
 }
@@ -801,6 +801,7 @@ i {
     .footer-links-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
+}
 .arrow-btn a {
   height: 50px;
   width: 45px;
@@ -815,4 +816,18 @@ i {
   line-height: 50px;
   font-size: 25px;
 }
+
+.signup-link{
+  display: inline;
+  text-decoration: none;
+  color: #fff;
 }
+
+.sign-up-para{
+  color:#737373;
+}
+
+
+/* .sign-up-div{
+  margin-top: 2%;
+} */
