@@ -174,7 +174,7 @@ section {
 .container1 {
   margin: auto;
   padding: 4rem;
-  /* width: 68rem; */
+  max-width: 68rem;
 }
 
 .accordion .accordion-item {
