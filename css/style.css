@@ -35,6 +35,8 @@ body {
   margin-right: 55px;
   width: 50%;
 }
+
+
 .logo {
   width: 50%;
   justify-content: flex-start;
@@ -56,6 +58,18 @@ body {
   width: 150px;
   height: 76%;
 }
+.img {
+  background: url('../assets/tv.png') no-repeat top left transparent;
+  width: 00px; 
+  height: 500px; 
+  position: relative;
+}
+.img video {
+  position: absolute;
+  top: 30px; /* Adjust top position */
+  left: 85px; /* Adjust left position */
+}
+
 .main-text {
   width: 60%;
   margin: auto;
