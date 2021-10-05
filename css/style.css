@@ -51,11 +51,12 @@ select::-ms-expand {
 .select {
   position: relative;
   display: flex;
-  width: 10em;
+  width: 7em;
   height: 3em;
   border-radius: .25em;
   overflow: hidden;
-  float: right;
+  margin-left: 840px;
+  top:10px;
 }
 /* Arrow */
 .select::after {
