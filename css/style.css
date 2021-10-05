@@ -174,7 +174,7 @@ section {
 .container1 {
   margin: auto;
   padding: 4rem;
-  width: 68rem;
+  max-width: 68rem;
 }
 
 .accordion .accordion-item {
@@ -256,7 +256,7 @@ section {
 }
 .accordion button[aria-expanded="true"] + .accordion-content {
   opacity: 1;
-  max-height: 17em;
+  max-height: 50em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
@@ -367,8 +367,8 @@ footer a:hover {
   width: 90%;
   margin-top: 30px;
   padding: 1rem 0;
-  padding-right: 80px;
-  padding-left: 60px;
+  display: block;
+  margin: auto;
 }
 .else {
   width: 90%;
@@ -401,11 +401,11 @@ i {
 }
 
 .social-login {
+  width: 100%;
   margin-top: 4%;
 }
 
 .social-1 .btn {
-  padding-right: 98px;
   background: #de5246;
 }
 
@@ -414,12 +414,11 @@ i {
 }
 
 .social-3 .btn {
-  padding-right: 100px;
   background: #00acee;
 }
 
 .social-inside {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 @media (max-width: 916px) {
@@ -572,6 +571,7 @@ i {
 }
 
 .sign-up-para{
+  text-align: center;
   color:#737373;
 }
 
