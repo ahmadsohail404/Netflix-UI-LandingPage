@@ -593,6 +593,11 @@ i {
   color:#737373;
 }
 
+.lang-select{
+  margin: 0px 30px;
+  background: transparent;
+  color: white;
+}
 
 /* .sign-up-div{
   margin-top: 2%;
