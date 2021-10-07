@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NETFLIX UI CLONE</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NETFLIX UI CLONE</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
-
-<body>
-  <div class="container">
-    <nav class="navbar">
-      <div class="logo flex">
-        <a href="./index.html">
-          <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="netflix-logo" /></a>
-      </div>
-      <div class="signin flex">
-        <select class="lang-select"name="lang" id="lang">
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo flex">
+          <a href="./index.html">
+            <img
+              src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
+              alt="netflix-logo"
+          /></a>
+        </div>
+        <div class="signin flex">
+          <select class="lang-select"name="lang" id="lang">
           <option value="english">English</option>
           <option value="hindi">हिन्दी</option>
         </select>
-        <a href="./signin.html" class="btn" id="sign-in-btn">Sign In</a>
+          <a href="./signin.html" class="btn">Sign In</a>
+        </div>
+      </nav>
+      <div class="arrow-btn" id="myDIV">
+        <a href="#"><span class="fas fa-angle-up"></span></a>
       </div>
-    </nav>
-    <div class="arrow-btn" id="myDIV">
-      <a href="#"><span class="fas fa-angle-up"></span></a>
+        
+        <a href="./signin.html" class="btn" id="sign-in-btn">Sign In</a>
+      <div class="main-text flex">
+        <div class="sec-1">
+          <h1>Unlimited movies, TV</h1>
+          <h2>shows and more.</h2>
+          <h4>Watch anywhere. Cancel anytime.</h4>
+          <h5>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h5>
+        </div>
+        <div class="email-input flex">
+          <input type="email" placeholder="Email address" /><a
+            href=""
+            class="btn"
+            >Get started</a
+          >
+        </div>
+      </div>
     </div>
     <div class="main-text flex">
       <div class="sec-1">
@@ -109,11 +138,12 @@
               award-winning TV shows, movies, anime, documentaries and more –
               on thousands of internet-connected devices.<br />
 
-              You can watch as much as you want, whenever you want, without a
-              single ad – all for one low monthly price. There's always
-              something new to discover, and new TV shows and movies are added
-              every week!
-            </p>
+                You can watch as much as you want, whenever you want, without a
+                single ad – all for one low monthly price. There's always
+                something new to discover, and new TV shows and movies are added
+                every week!
+              </p>
+            </div>
           </div>
         </div>
         <div class="accordion-item">
@@ -184,8 +214,7 @@
       <div class="email-input flex">
         <input type="email" placeholder="Email address" /><a href="" class="btn" id="email-btn-2">Get started</a>
       </div>
-    </div>
-  </section>
+    </section>
 
   <footer class="flex">
     <div class="div flex">
