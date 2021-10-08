@@ -286,7 +286,7 @@ section {
   width: 70%;
   margin-top: 20px;
 }
-footer {
+/* footer {
   margin-top: 10px;
   background: black;
   padding: 7% 7%;
@@ -296,7 +296,52 @@ footer {
 footer .div {
   margin-bottom: 20px;
   width: 100%;
+} */
+
+/* Footer CSS starts */
+
+.sec-6 {
+  background-color: #000;
 }
+
+.footer {
+  max-width: 70%;
+  margin: 1rem auto;
+  overflow: auto;
+}
+
+.footer,
+.footer a {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+  background: black;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.footer li {
+  line-height: 1.9;
+}
+
+.footer .lang-select {
+  margin-top: 2rem;
+  color: rgb(110, 106, 106);
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #333;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+}
+
+/* Footer CSS Ends */
 .div p {
   padding-left: 25%;
   flex-wrap: wrap;
@@ -565,16 +610,15 @@ i {
   font-size: 25px;
 }
 
-.signup-link{
+.signup-link {
   display: inline;
   text-decoration: none;
   color: #fff;
 }
 
-.sign-up-para{
-  color:#737373;
+.sign-up-para {
+  color: #737373;
 }
-
 
 /* .sign-up-div{
   margin-top: 2%;
