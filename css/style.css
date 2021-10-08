@@ -87,21 +87,29 @@ body {
 }
 .email-input input {
   width: 60%;
-  padding: 1.3rem 20px;
+  padding: 1.25rem 20px;
+  /* border-radius: 4px 0px 0px 4px; */
 }
 .email-input input::placeholder {
   font-size: 16px;
 }
 .email-input .btn {
   width: 40% !important;
-  border-radius: 0;
+  border-radius: 0px 4px 4px 0px;
   display: inline-block;
-  padding: 1rem 0;
+  padding: 0.85rem 0;
   padding-bottom: 1.2rem;
   font-size: 1.4rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 300;
   text-align: center;
+}
+.email-box-icon {
+  color: white;
+  margin-left: 25px;
+}
+.email-input .btn:hover {
+  background: red;
 }
 .sec-2 {
   background: black;
@@ -523,11 +531,13 @@ i {
   }
   .email-input input {
     width: 90%;
+    border-radius: 4px;
   }
   .email-input .btn {
     display: block;
     margin-top: 10px;
     font-size: 1rem;
+    border-radius: 4px;
   }
   .questions {
     width: 90%;
