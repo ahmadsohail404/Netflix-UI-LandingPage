@@ -582,7 +582,7 @@ i {
   font-size: 25px;
 }
 
-.signup-link{
+.signup-link {
   display: inline;
   text-decoration: none;
   color: #fff;
@@ -593,7 +593,14 @@ i {
   color:#737373;
 }
 
-
 /* .sign-up-div{
   margin-top: 2%;
 } */
+
+form input[type="checkbox"] {
+  cursor: pointer;
+}
+
+form label {
+  cursor: pointer;
+}
