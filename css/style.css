@@ -403,6 +403,7 @@ footer a:hover {
 .help {
   width: 50%;
   text-align: end;
+  cursor: pointer;
 }
 
 .help a {
