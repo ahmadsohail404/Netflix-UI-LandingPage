@@ -19,7 +19,7 @@ var x = document.querySelector("#myDIV");
 window.addEventListener("scroll", function () {
   let offset;
   offset = window.pageYOffset;
-  if (offset > 300) {
+  if (offset > 320) {
     x.style.display = "block";
   }
   if (offset < 300) {
