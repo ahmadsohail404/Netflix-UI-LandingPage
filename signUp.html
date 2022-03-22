@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix | Sign up</title>
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav {
+            border: .5px solid rgba(128, 128, 128, 0.336);
+        }
+
+        nav .navLogo {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav .navLogo img {
+            width: 200px;
+            padding-left: 20px;
+        }
+
+        nav .navLogo #sign {
+            padding-right: 40px;
+            padding-top: 40px;
+        }
+
+        nav .navLogo #sign a {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .main {
+            padding: 40px 100px 40px 400px;
+            line-height: 20px;
+            font-size: 15px;
+        }
+
+        .main p h1 {
+            font-size: 17px;
+            color: rgb(66, 66, 66);
+        }
+
+        .main p {
+            /* line-height: 20px; */
+            color: rgb(66, 66, 66);
+        }
+
+        .main a {
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .main input {
+            font-size: 15px;
+            text-align: left;
+            padding: 15px 190px 15px 10px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .main #button button {
+            font-size: 17px;
+            padding: 10px 170px 10px 170px;
+            margin: 10px 0px 10px 0px;
+            background-color: rgb(233, 59, 59);
+            border: none;
+            color: white;
+        }
+
+        .main a:hover {
+            text-decoration: underline;
+        }
+
+        .main #button button:hover {
+            background-color: rgb(252, 0, 0);
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: rgb(240, 240, 240);
+            padding: 30px 0px 20px 50px;
+        }
+
+        footer .main-footer {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 400px;
+        }
+
+        footer h4 {
+            color: rgb(114, 113, 113);
+        }
+
+        footer .main-footer a {
+            text-decoration: none;
+            color: rgb(114, 113, 113);
+        }
+
+        footer #language {
+            padding-right: 1100px;
+        }
+
+        nav .navLogo #sign:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 718px) {
+            .main {
+                padding: 40px 100px 40px 100px;
+            }
+
+            footer .main-footer {
+                padding-right: 30px;
+            }
+
+            footer #language {
+                padding-right: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navLogo">
+            <div>
+                <img src="/assets/netflixlogo.png" alt="">
+            </div>
+            <div id="sign">
+                <a href="signin.html">Sign In</a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="main">
+            <p>STEP <b>1</b> OF <b>3</b></p>
+            <p><b>
+                    <h1 style="font-size: 28px;">Welcome back,<br>Joining Netflix is easy</h1>
+                </b></p>
+            <p>Enter your password and you'll be watching in no <br>time.</p>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <br>
+            <a href="#">Forgot your password?</a>
+            <br>
+            <a id="button" href="#"><button>Next</button></a>
+        </div>
+    </section>
+
+    <footer>
+        <h4>Ouestions? Contact us.</h4>
+        <div class="main-footer">
+            <div>
+                <a href="#">FAQ</a>
+                <br>
+                <a href="#">Privacy</a>
+            </div>
+            <div>
+                <a href="#">Help Centre</a>
+                <br>
+                <a href="#">Cookie Preferences</a>
+            </div>
+            <div>
+                <a href="#">Terms of Use</a>
+                <br>
+                <a href="#">Corporate Information</a>
+            </div>
+        </div>
+        <br>
+        <div id="language">
+            <select class="form-select" id="select">
+                <option selected>English</option>
+                <option value="2">Hindi</option>
+            </select>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
